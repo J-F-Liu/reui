@@ -1,4 +1,4 @@
-use crate::colors::transparent;
+use crate::colors::TRANSPARENT;
 use crate::Color;
 
 #[derive(Copy, Clone, Default)]
@@ -59,7 +59,6 @@ impl Rect {
     }
 }
 
-
 #[derive(Copy, Clone)]
 pub struct Background {
     pub color: Color,
@@ -67,9 +66,7 @@ pub struct Background {
 
 impl Background {
     pub fn transparent() -> Self {
-        Background {
-            color: transparent(),
-        }
+        Background { color: TRANSPARENT }
     }
 }
 
@@ -89,6 +86,6 @@ impl Border {
         }
     }
     pub fn none() -> Self {
-        Border::new(0, 0, transparent())
+        Border::new(0, 0, TRANSPARENT)
     }
 }

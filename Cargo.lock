@@ -4,13 +4,13 @@
 name = "reui"
 version = "0.1.0"
 dependencies = [
- "rgb 0.8.12 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rgb 0.8.13 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "rgb"
-version = "0.8.12"
+version = "0.8.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [metadata]
-"checksum rgb 0.8.12 (registry+https://github.com/rust-lang/crates.io-index)" = "6909f703ab5260012430324d5e8a5c74b26080597cd465d0bd1d2338d6b24ab7"
+"checksum rgb 0.8.13 (registry+https://github.com/rust-lang/crates.io-index)" = "4f089652ca87f5a82a62935ec6172a534066c7b97be003cc8f702ee9a7a59c92"

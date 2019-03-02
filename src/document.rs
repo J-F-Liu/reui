@@ -31,7 +31,7 @@ impl Document {
                 let font = element.property_clone::<Font>().unwrap_or(Font::default());
                 let color = element
                     .property_clone::<Color>()
-                    .unwrap_or(crate::colors::transparent());
+                    .unwrap_or(crate::colors::BLACK);
                 renderer.render_text(&text.0, Rect::new(pos, size), font.name, font.size, color);
             }
         }

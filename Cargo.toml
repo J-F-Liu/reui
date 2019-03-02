@@ -5,4 +5,4 @@ authors = ["Junfeng Liu <china.liujunfeng@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-rgb = "0.8.0"
+rgb = "0.8.13"
